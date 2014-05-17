@@ -1,6 +1,6 @@
-#N struct 1007-symarray float x array symbols 1007-sym;
-#N struct 1007-sym symbol name float on;
-#N canvas 90 80 770 523 10;
+#N struct 1004-symarray float x array symbols 1004-sym;
+#N struct 1004-sym symbol name float on;
+#N canvas -22 408 770 523 10;
 #X declare -path abs;
 #X obj 18 -18 declare -path abs;
 #X obj 508 64 hradio 15 1 0 12 empty empty empty 0 -8 0 10 -262144
@@ -66,8 +66,7 @@
 #X obj 240 411 int;
 #X obj 240 432 abs;
 #X msg 12 559 add2 \$1;
-#X msg 12 580 72 69 79 72 69 79 72 69 79 76 72 69 79 55 43 36 76 79
-67 38 79 76;
+#X msg 12 580 50 53 49 47;
 #X obj 12 456 t f b;
 #X obj 508 15 r note;
 #X obj 43 476 f;
@@ -191,7 +190,7 @@
 #X obj 50 85 cnv 15 85 88 empty empty empty 20 12 0 14 -191407 -66577
 0;
 #X obj 60 117 nbx 3 20 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 20
--204800 -1 -1 76 256;
+-204800 -1 -1 47 256;
 #X text 53 86 analysis;
 #X msg 596 131 C \, C# \, D \, D# \, E \, F \, F# \, G \, G# \, A \,
 A# \, B;
@@ -209,8 +208,8 @@ A# \, B;
 #X obj 353 -2 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X msg 121 388 55;
-#X msg 153 379 53;
-#X msg 148 353 58;
+#X msg 153 379 44;
+#X msg 148 353 99;
 #X connect 1 0 11 0;
 #X connect 2 0 4 1;
 #X connect 3 0 4 0;
